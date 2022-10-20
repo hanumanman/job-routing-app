@@ -1,0 +1,28 @@
+#modalDiv {
+  position: fixed;
+  border: 10px solid rgba(255, 255, 255, 0.63);
+  height: 50vh;
+  width: 50vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: 2;
+  background: rgb(47, 79, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#modalDiv a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+#modalDiv h1 {
+  text-align: center;
+}
