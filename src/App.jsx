@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 
-import HostModal from "./routes/hostModal";
+import HostModal from "./routes/HostModal";
 import JobModal from "./routes/JobModal";
 import LoginModal from "./routes/LoginModal";
 import AuthRequire from "./routes/RequireAuth";
