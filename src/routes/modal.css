@@ -1,8 +1,7 @@
 #modalDiv {
   position: fixed;
   border: 10px solid rgba(255, 255, 255, 0.63);
-  height: 50vh;
-  width: 50vw;
+  width: 50vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -14,10 +13,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  padding: 1rem;
 }
 
 #modalDiv a {
-  text-decoration: none;
+  text-decoration: underline;
   color: aliceblue;
   cursor: pointer;
   margin-top: 5px;
